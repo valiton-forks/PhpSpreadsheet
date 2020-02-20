@@ -1343,6 +1343,8 @@ $drawing->setHeight(36);
 $drawing->setWorksheet($spreadsheet->getActiveSheet());
 ```
 
+**Note: For this to work, the [`ext-gd`](https://www.php.net/manual/en/book.image.php) extension has to be installed on your system.**
+
 ## Reading Images from a worksheet
 
 A commonly asked question is how to retrieve the images from a workbook
@@ -1593,6 +1595,8 @@ $drawing->setMimeType(\PhpOffice\PhpSpreadsheet\Worksheet\MemoryDrawing::MIMETYP
 $drawing->setHeight(36);
 $drawing->setWorksheet($spreadsheet->getActiveSheet());
 ```
+
+**Note: For this to work, the [`ext-gd`](https://www.php.net/manual/en/book.image.php) extension has to be installed on your system.**
 
 ## Setting worksheet zoom level
 
